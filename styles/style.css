@@ -1,0 +1,118 @@
+* {
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(./../assets/1814-Map-of-Virginia.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia, serif;
+}
+
+p {
+    color: rgb(235, 235, 235);
+}
+
+/* Header and Navigation */
+
+nav {
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+    float: left;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+nav h1 {
+    position: relative;
+    float: left;
+    font-size: 3em;
+    line-height: 80px;
+    text-decoration: underline;
+    color: #046cd6;
+    z-index: 2;
+    margin-left: 1em;
+}
+
+.navLinks {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -2.5em;
+}
+nav ul {
+    position: relative;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    z-index: 2;
+    margin: auto;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    top: 30px;
+    margin-right: 2em;
+    font-size: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #046cd6;
+}
+
+ul li a:hover {
+    border-bottom: solid #046cd6 2px;
+}
+
+nav #iconBar {
+    float: right;
+}
+ul li img:hover {
+    border-bottom: solid black 2px;
+}
+
+/* Main Content */
+
+main {
+    clear: both;
+    margin-top: 5em;
+}
+
+.aboutme-header {
+    display: block;
+    color: hsl(24, 100%, 50%);
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+.rva-header {
+    background-image: url(./../assets/rivercity.jpg);
+    color: hsl(24, 100%, 50%);
+    text-align: center;
+    font-size: 1.25em;
+    display: block;
+    padding: 4em;
+    width: 50%;
+    margin-top: 2em;
+    text-decoration: underline;
+}
+
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+#contentWrap {
+    padding-bottom: 2.5rem;
+}
