@@ -2,6 +2,14 @@
     font-size: 16px;
 }
 
+button {
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
 #intro {
     background: url(./img/blue-ridge-resize.jpg) no-repeat;
     height: 75vh;
@@ -10,7 +18,7 @@
     text-align: center;
     display: grid;
     place-items: center;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 #intro h1 {
@@ -30,7 +38,7 @@
     margin-right: 3rem;
 }
 
-.about-amy {
+#about-amy {
     background-color: lightgray;
     padding-top: 2rem;
 }
@@ -83,6 +91,55 @@
 }
 
 #breweries h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+#about-amy {
+    background: url(./img/Amyheadshot.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+    height: 33vw;
+}
+
+#about-amy h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.big-button {
+    padding: 0 1rem;
+    transition: opacity 0.3s;
+}
+
+.sibling-fade:hover .big-button:not(:hover) {
+    opacity: 0.5;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+#cities-jumbo {
+    background: url(./img/1814-Map-of-Virginia.jpg) no-repeat;
+    height: 75vh;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+
+#cities-jumbo h1 {
     text-transform: uppercase;
     margin: 0;
     font-size: 3rem;

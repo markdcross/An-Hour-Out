@@ -30,7 +30,7 @@
             </div>
             <div class="row">
                 <!-- About Amy -->
-                <div class="col-md-12 about-amy">
+                <div class="col-md-12" id="amy-intro">
                     <div class="row justify-content-center">
                         <div class="col-md-8 headshot jumbotron">
                             <ul class="nav nav-tabs">
@@ -38,16 +38,16 @@
                                     <a
                                         class="nav-link active"
                                         data-toggle="tab"
-                                        href="#home"
-                                        >Home</a
+                                        href="#amy"
+                                        >Amy</a
                                     >
                                 </li>
                                 <li class="nav-item">
                                     <a
                                         class="nav-link"
                                         data-toggle="tab"
-                                        href="#travels"
-                                        >Travels</a
+                                        href="#mark"
+                                        >Mark</a
                                     >
                                 </li>
                                 <li class="nav-item">
@@ -60,10 +60,7 @@
                                 </li>
                             </ul>
                             <div id="myTabContent" class="tab-content">
-                                <div
-                                    class="tab-pane fade active show"
-                                    id="home"
-                                >
+                                <div class="tab-pane fade active show" id="amy">
                                     <img
                                         src="./assets/img/Amyheadshot.jpg"
                                         alt="Amy's headshot"
@@ -134,7 +131,7 @@
                                         </h4>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="travels">
+                                <div class="tab-pane fade" id="mark">
                                     <p>
                                         Food truck fixie locavore, accusamus
                                         mcsweeney's marfa nulla single-origin
@@ -163,36 +160,37 @@
                                         cred pitchfork.
                                     </p>
                                 </div>
-                                <div class="tab-pane fade" id="dropdown2">
-                                    <p>
-                                        Trust fund seitan letterpress, keytar
-                                        raw denim keffiyeh etsy art party before
-                                        they sold out master cleanse gluten-free
-                                        squid scenester freegan cosby sweater.
-                                        Fanny pack portland seitan DIY, art
-                                        party locavore wolf cliche high life
-                                        echo park Austin. Cred vinyl keffiyeh
-                                        DIY salvia PBR, banh mi before they sold
-                                        out farm-to-table VHS viral locavore
-                                        cosby sweater.
-                                    </p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Cities index -->
+                <div class="col-md-12 hide" id="cities-index">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 jumbotron">
+                            <img src="./assets/img/cities.jpg" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
+            <div class="row sibling-fade">
                 <!-- Big pictures -->
-                <div class="col-md-4 jumbotron" id="cities">
+
+                <button class="col-md-4 big-button" id="cities">
                     <h1>Cities</h1>
-                </div>
-                <div class="col-md-4 jumbotron" id="wineries">
+                </button>
+
+                <button class="col-md-4 big-button" id="wineries">
                     <h1>Wineries</h1>
-                </div>
-                <div class="col-md-4 jumbotron" id="breweries">
+                </button>
+
+                <button class="col-md-4 big-button" id="breweries">
                     <h1>Breweries</h1>
-                </div>
+                </button>
+                <!-- TODO How to get this button hiding and populating correctly -->
+                <!-- <button class="col-md-4 big-button" id="about-amy">
+                    <h1>About Amy</h1>
+                </button> -->
             </div>
         </main>
         <footer>
@@ -206,8 +204,8 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
             crossorigin="anonymous"
         ></script>
         <script
