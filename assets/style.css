@@ -1,0 +1,90 @@
+* {
+    font-size: 16px;
+}
+
+#intro {
+    background: url(./img/blue-ridge-resize.jpg) no-repeat;
+    height: 75vh;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+}
+
+#intro h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.headshot {
+    float: left;
+}
+
+#headshot {
+    max-height: 25rem;
+    float: left;
+    margin-right: 3rem;
+}
+
+.about-amy {
+    background-color: lightgray;
+    padding-top: 2rem;
+}
+
+#cities {
+    background: url(./img/cities.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+    height: 33vw;
+}
+
+#cities h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+#wineries {
+    background: url(./img/wineries.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+    height: 33vw;
+}
+
+#wineries h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+#breweries {
+    background: url(./img/breweries.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 0;
+    height: 33vw;
+}
+
+#breweries h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap;
+}

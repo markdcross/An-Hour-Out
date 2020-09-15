@@ -9,22 +9,199 @@
         />
 
         <!-- Bootstrap CSS -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            href="/assets/style.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-        />
+        <link rel="stylesheet" href="./assets/bootstrap.css" />
 
-        <title>Hello, world!</title>
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="./assets/style.css" />
+
+        <title>An Hour Out</title>
     </head>
     <body>
-        <h1>Hello, world!</h1>
+        <nav></nav>
+        <main>
+            <div class="row">
+                <!-- Jumbotron -->
+                <div class="col-md-12 jumbotron" id="intro">
+                    <h1>
+                        Have you ever wondered what you can do<br />
+                        within an hour of Richmond, VA?
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- About Amy -->
+                <div class="col-md-12 about-amy">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 headshot jumbotron">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        data-toggle="tab"
+                                        href="#home"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-toggle="tab"
+                                        href="#travels"
+                                        >Travels</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-toggle="tab"
+                                        href="#pip"
+                                        >Pip</a
+                                    >
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div
+                                    class="tab-pane fade active show"
+                                    id="home"
+                                >
+                                    <img
+                                        src="./assets/img/Amyheadshot.jpg"
+                                        alt="Amy's headshot"
+                                        id="headshot"
+                                    />
+
+                                    <!-- Intro blurb around headshot -->
+                                    <div class="intro">
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                        <h4>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur adipisicing elit. Saepe
+                                            quos beatae nostrum praesentium
+                                            tempore accusantium quasi
+                                            temporibus, possimus ipsum pariatur
+                                            minus, voluptas, iste suscipit
+                                            corporis iusto eveniet modi minima
+                                            natus.
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="travels">
+                                    <p>
+                                        Food truck fixie locavore, accusamus
+                                        mcsweeney's marfa nulla single-origin
+                                        coffee squid. Exercitation +1 labore
+                                        velit, blog sartorial PBR leggings next
+                                        level wes anderson artisan four loko
+                                        farm-to-table craft beer twee. Qui photo
+                                        booth letterpress, commodo enim craft
+                                        beer mlkshk aliquip jean shorts ullamco
+                                        ad vinyl cillum PBR. Homo nostrud
+                                        organic, assumenda labore aesthetic
+                                        magna delectus mollit.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pip">
+                                    <p>
+                                        Etsy mixtape wayfarers, ethical wes
+                                        anderson tofu before they sold out
+                                        mcsweeney's organic lomo retro fanny
+                                        pack lo-fi farm-to-table readymade.
+                                        Messenger bag gentrify pitchfork
+                                        tattooed craft beer, iphone skateboard
+                                        locavore carles etsy salvia banksy
+                                        hoodie helvetica. DIY synth PBR banksy
+                                        irony. Leggings gentrify squid 8-bit
+                                        cred pitchfork.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="dropdown2">
+                                    <p>
+                                        Trust fund seitan letterpress, keytar
+                                        raw denim keffiyeh etsy art party before
+                                        they sold out master cleanse gluten-free
+                                        squid scenester freegan cosby sweater.
+                                        Fanny pack portland seitan DIY, art
+                                        party locavore wolf cliche high life
+                                        echo park Austin. Cred vinyl keffiyeh
+                                        DIY salvia PBR, banh mi before they sold
+                                        out farm-to-table VHS viral locavore
+                                        cosby sweater.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Big pictures -->
+                <div class="col-md-4 jumbotron" id="cities">
+                    <h1>Cities</h1>
+                </div>
+                <div class="col-md-4 jumbotron" id="wineries">
+                    <h1>Wineries</h1>
+                </div>
+                <div class="col-md-4 jumbotron" id="breweries">
+                    <h1>Breweries</h1>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Sign up, follow on social, etc...</h1>
+                </div>
+            </div>
+        </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -43,6 +220,6 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"
         ></script>
-        <script src="/assets/scripts.js"></script>
+        <script src="./assets/scripts.js"></script>
     </body>
 </html>
